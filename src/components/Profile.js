@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 
 function Profile({ name, tag, location, avatar, followers, views, likes }) {
   return (
-    <div classNameName="profile">
+    <div className="profile">
       <div className="description">
         <img src={avatar} alt={tag} className="avatar" />
         <p className="name">{name}</p>
